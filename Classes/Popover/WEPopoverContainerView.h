@@ -27,11 +27,11 @@
 	CGFloat arrowMargin;
 }
 
-@property(nonatomic, retain) NSString *bgImageName;
-@property(nonatomic, retain) NSString *upArrowImageName;
-@property(nonatomic, retain) NSString *downArrowImageName;
-@property(nonatomic, retain) NSString *leftArrowImageName;
-@property(nonatomic, retain) NSString *rightArrowImageName;
+@property(nonatomic, strong) NSString *bgImageName;
+@property(nonatomic, strong) NSString *upArrowImageName;
+@property(nonatomic, strong) NSString *downArrowImageName;
+@property(nonatomic, strong) NSString *leftArrowImageName;
+@property(nonatomic, strong) NSString *rightArrowImageName;
 @property(nonatomic, assign) CGFloat leftBgMargin;
 @property(nonatomic, assign) CGFloat rightBgMargin;
 @property(nonatomic, assign) CGFloat topBgMargin;
