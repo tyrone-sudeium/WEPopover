@@ -40,7 +40,7 @@
 @property (nonatomic, readonly) UIView *view;
 @property (nonatomic, readonly, getter=isPopoverVisible) BOOL popoverVisible;
 @property (nonatomic, readonly) UIPopoverArrowDirection popoverArrowDirection;
-@property (nonatomic, weak) id <WEPopoverControllerDelegate> delegate;
+@property (nonatomic, unsafe_unretained) id <WEPopoverControllerDelegate> delegate;
 @property (nonatomic, assign) CGSize popoverContentSize;
 @property (nonatomic, strong) WEPopoverContainerViewProperties *containerViewProperties;
 @property (nonatomic, strong) id <NSObject> context;
